@@ -1,0 +1,223 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+#jio{
+	position:sticky;
+	top:0;
+	background-color:white;
+	z-index:999;
+	padding:13px;
+}
+/* section-1 */
+#sec-1{
+	background-color:#dee2e6;
+	padding:15px;
+	}
+.icon i{color:orange;
+	
+}
+.img{
+	position:relative;
+	overflow:hidden;
+}
+.img p{
+	position:absolute;
+	top:10px;
+	left:5px;
+	
+}
+.img img{
+	transition:all .5s ease;
+}
+.aircel:hover img{
+	transform:scale(1.2);
+}
+.leo{
+	font-size:10px;
+}
+.leon{
+    background-color:orange;
+	color:white;
+	width:7rem;
+	}
+#sec-1 .thug:hover{
+	background-color:#343a40!important;
+}
+#sec-1 a:hover{
+	background-color:blue;
+	color:white;
+}	
+.icon-1 h5:hover{
+	color:blue;
+}
+	
+	/* section-2 */
+.sec-2{
+	position:relative;
+}
+.rio-1{
+		position:absolute;
+		top:110px;
+		left:-90px;
+		z-index:-1;
+}
+.rio-2{
+		position:absolute;
+		top:190px;
+		right:-10px;
+		}
+.ant-man{
+	background-color:#ff000029;
+	width:140px;
+	text-align:center;
+	height:70px;
+	line-height:70px;
+	border-radius:50px;
+}
+#sec-2 a:hover{
+	background-color:#343a40!important;
+}
+		
+		/* section-3 */
+
+.gd{
+	border-right:1px solid #ffffff29;
+	height:9rem;	
+}
+		/* section-4 */
+#sec-4{
+	margin:35px 0;
+}
+.id-card{
+	position:relative;
+	overflow:hidden;
+	transition:all .5s ease;
+}
+.id-card-1{
+position:absolute;	
+top:10px;
+left:10px;
+}
+.fa-heart{
+	position:absolute;
+	top:15px;
+	right:10px;
+	background-color:lightgray;
+	padding:7px;
+border-radius:15px;}
+.green b{
+	font-size:20px;
+}
+.green p i{
+	padding:5px 5px;
+	color:orange;
+	}
+.vi img{ 
+transition:all .5s ease;
+}	
+.vi:hover img{
+	transform:scale(1.2);
+	transition:all .5s ease;
+}
+
+#sec-4 a:hover{
+	background-color:#343a40!important;
+}
+.the i{
+	  color:gray;
+}
+
+
+			/* section-5 */
+			
+#sec-5 a:hover{
+	background-color:orange!important;
+	color:white;
+}
+			/* section-6 */
+			
+.accordion-button::after {
+    content: "\f067"!important;
+    background-image:none!important;
+	    font: normal normal normal 14px/1 FontAwesome!important;
+    transition: transform .2s ease-in-out;
+}
+.accordion-button:not(.collapsed)::after {
+	content:"\f068"!important;
+    background-image:none!important;
+transform: rotate(360deg)!important;
+}
+
+			/* section-7 */
+#sec-7{
+	background-color:#ccd1d740;
+	padding:25px;
+	position:relative;
+	}
+.guna span{
+	color:orange;
+	}
+.left{
+	position:absolute!important;
+	bottom:10%;
+	right:8%;
+	opacity:0.5;
+}	
+.right{
+	position:absolute!important;
+	bottom:10%;
+	right:0;
+	opacity:0.5;
+}	
+.left span{
+	color:white;
+}
+.right span{
+	color:white;
+}
+.right span:hover,.left span:hover{
+	background-color:blue;
+}
+		/* section-8 */
+		
+#sec-8{
+	padding-top:15px;	
+}	
+.jio{
+	/* position:relative; */
+}
+.search-bar{
+	width:400px;
+	height:40px;
+}
+		/* section-9 */
+		
+#sec-9{
+		background-color:black;
+		/* height:50vh; */
+		/* padding:10px; */
+}
+.jio-1 i{
+	text-align:center;
+	background-color:gray;
+	width:40px;
+	height:40px;
+	line-height:40px;
+}
+.jio-1 i:hover{
+	background-color:blue;
+}
+
+.theo{
+	list-style:none;
+}
+.theo li{
+	padding:5px 0;
+}
+
+.idea a:hover{
+	color:blue!important;
+	/* background-color:red!important; */
+}
